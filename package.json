@@ -6,6 +6,6 @@
     "@supabase/mcp-server-supabase": "latest"
   },
   "scripts": {
-    "start": "./start.sh"
+    "start": "bash start.sh"
   }
 }

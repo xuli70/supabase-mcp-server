@@ -1,0 +1,11 @@
+{
+  "name": "supabase-mcp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@supabase/mcp-server-supabase": "latest"
+  },
+  "scripts": {
+    "start": "./start.sh"
+  }
+}

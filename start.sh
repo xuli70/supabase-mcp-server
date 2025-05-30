@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Lanza MCP en modo Postgres
+# Script de arranque para MCP Postgres
 
 if [ -z "$PG_CONN" ]; then
-  echo "Error: falta la variable PG_CONN con la cadena de conexión."
+  echo "Error: falta la variable PG_CONN con la cadena de conexión." >&2
   exit 1
 fi
 
